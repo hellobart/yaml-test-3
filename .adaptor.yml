@@ -1,0 +1,13 @@
+name: Adaptor Test 3
+node_identifier: test3
+platforms:
+  - Docker
+  - AWS Lambda
+  - Google Cloud Platform
+data_sources:
+  - name: Binance
+    url: https://binance.com
+  - name: Coinbase Pro
+    url: https://pro.coinbase.com
+  - name: LinkPool
+    url: https://linkpool.io
